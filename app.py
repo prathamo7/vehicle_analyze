@@ -6,12 +6,12 @@ import streamlit as st
 
 
 pages = [
-    st.Page("views/home.py", title="Home", icon="🏠", default=True),
-    st.Page("views/market_overview.py", title="Market Overview", icon="📊"),
-    st.Page("views/brand_insights.py", title="Brand & Model Insights", icon="🚗"),
-    st.Page("views/price_analytics.py", title="Price Analytics", icon="💰"),
-    st.Page("views/technical_specs.py", title="Technical Specs", icon="⚙️"),
-    st.Page("views/location_trends.py", title="Location & Trends", icon="🗺️"),
+    st.Page("home.py", title="Home", icon="🏠", default=True),
+    st.Page("market_overview.py", title="Market Overview", icon="📊"),
+    st.Page("brand_insights.py", title="Brand & Model Insights", icon="🚗"),
+    st.Page("price_analytics.py", title="Price Analytics", icon="💰"),
+    st.Page("technical_specs.py", title="Technical Specs", icon="⚙️"),
+    st.Page("location_trends.py", title="Location & Trends", icon="🗺️"),
 ]
 
 nav = st.navigation(pages)
