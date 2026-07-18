@@ -1,9 +1,9 @@
 import streamlit as st
-from utils.theme import apply_theme
+
 
 # Called ONCE, before st.navigation — controls tab title, icon, layout, and injects
 # the shared dark theme CSS + Plotly template for the whole app.
-apply_theme("Australian Vehicle Prices | Dashboard")
+
 
 pages = [
     st.Page("views/home.py", title="Home", icon="🏠", default=True),
